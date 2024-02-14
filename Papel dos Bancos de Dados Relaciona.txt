@@ -1,0 +1,50 @@
+Papel dos Bancos de Dados Relacionais (SQL) e Não Relacionais (NoSQL) no Contexto de um Engenheiro de Dados
+Este repositório contém informações sobre os Bancos de Dados Relacionais (SQL) e Não Relacionais (NoSQL) e seu papel no contexto de um Engenheiro de Dados. Aqui estão os conceitos, definições e insights relevantes:
+
+Bancos de Dados Relacionais (SQL)
+Conceitos Básicos
+Os bancos de dados relacionais são baseados no modelo relacional e usam linguagem SQL (Structured Query Language) para gerenciar e manipular dados.
+Eles são compostos por tabelas que têm relacionamentos definidos entre si por meio de chaves primárias e estrangeiras.
+Características Principais
+Estrutura de dados bem definida com esquemas pré-definidos.
+Garantia de consistência e integridade dos dados por meio de transações ACID (Atomicidade, Consistência, Isolamento e Durabilidade).
+Suporte a consultas complexas usando SQL.
+Exemplos de Bancos de Dados Relacionais
+MySQL
+PostgreSQL
+Oracle Database
+Microsoft SQL Server
+Bancos de Dados Não Relacionais (NoSQL)
+Conceitos Básicos
+
+Os bancos de dados NoSQL são projetados para lidar com grandes volumes de dados e cenários de aplicativos distribuídos.
+Eles permitem flexibilidade na estrutura dos dados, evitando a necessidade de um esquema fixo como nos bancos de dados relacionais.
+Podem ser categorizados em diferentes tipos, incluindo bancos de dados de documentos, de colunas, de chave-valor e de grafos.
+
+Características Principais
+
+Escalabilidade horizontal para lidar com cargas de trabalho distribuídas.
+Flexibilidade na modelagem de dados, permitindo a inclusão de novos campos sem alterar o esquema global.
+Alto desempenho para operações de leitura e gravação em grande escala.
+Exemplos de Bancos de Dados NoSQL
+MongoDB (Documento)
+Cassandra (Coluna)
+Redis (Chave-valor)
+Neo4j (Grafo)
+
+Papel no Contexto de um Engenheiro de Dados
+Bancos de Dados Relacionais
+
+Usados para armazenar dados estruturados e relacionais, como registros de transações, perfis de usuários e informações de produtos.
+Adequados para casos de uso que exigem consistência e integridade dos dados, como sistemas de gerenciamento de pedidos e sistemas de CRM (Customer Relationship Management).
+
+Bancos de Dados NoSQL
+
+Úteis para armazenar e processar grandes volumes de dados não estruturados ou semi-estruturados, como logs de aplicativos, dados de mídia social e informações de sensor IoT.
+Ideais para cenários de aplicativos distribuídos e de alto desempenho que exigem escalabilidade horizontal e flexibilidade na modelagem de dados.
+Responsabilidades do Engenheiro de Dados
+
+Projetar e implementar esquemas de banco de dados para atender aos requisitos de armazenamento e consulta de dados.
+Realizar otimização de consultas e índices para melhorar o desempenho do banco de dados.
+Gerenciar a migração e a integração de dados entre diferentes sistemas de banco de dados.
+Monitorar e ajustar a capacidade e o desempenho dos bancos de dados para atender às demandas de carga de trabalho.
